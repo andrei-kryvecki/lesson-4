@@ -1,0 +1,766 @@
+* {
+box-sizing: border-box;
+margin: 0;
+}
+
+/* _______________________ HEADER________________________ */
+
+/* _________________ navigation section _________________ */
+
+.header {
+    width: 100%;
+    background-color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding-top: 22px;
+}
+
+.main-nav {
+    max-width: 1100px;
+    margin: 0 auto;
+    height: auto;
+}
+
+.main-nav__logo {
+    display: inline;
+    text-align: left;
+}
+
+.main-nav__logo img {
+    width: 80px;
+    height: 28px; 
+}
+
+.main-nav__list {
+    position: relative;
+    bottom: 26px;
+    text-align: right;
+}
+
+.main-nav__link {
+    color: #ffffff;
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.main-nav__link:hover {
+    color: #ffffff;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.main-nav__link:active {
+    color: #ffffff;
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.main-nav__item {
+    display: inline;
+    margin-left: 48px;
+}
+
+/* ____________________ general section ___________________ */
+
+.general-section {
+    background: linear-gradient(#00000080, #00000080), url(../img/background-header.png) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    font-size: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.general-section__content {
+    text-align: center;
+    padding: 110px 0;
+}
+
+.general-section__title {
+    max-width: 740px;
+    color: #ffffff;
+    display: inline-block; 
+    text-align: left;
+}
+
+.general-section__title h1 {
+    font-size: 36px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+.general-section__title hr {
+    width: 64px;
+    height: 2px;
+    border: none;
+    background: #ffffff;
+    margin: 30px 0;
+}
+
+.general-section__title p {
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+.general-section__title button {
+    width: 135px;
+    height: 42px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 45px auto 30px auto;
+}
+
+.general-section__title button:hover {
+    background: #ffffff4d;
+    border-width: 2px;
+    transition: 0.3s;
+}
+
+.general-section__title button:active {
+    background: #ffffffcc;
+    border-color: #ffffff;
+    border-width: 2px;
+    transition: 0.2s;
+    color:#000000
+}
+
+/* __________________ general form section _________________ */
+
+.general-section__form {
+    display: inline-block;
+    width: 360px;
+    background-color: white;    
+    border-radius: 5px;    
+}
+
+.general-section__form h2 {
+    height: 54px;
+    background-color: #F5F5F5;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 12px;
+}
+
+.general-section__form .word {
+    color: #FF8B38;
+}
+
+.general-section__form input {
+    width: 285px;
+    font-size: 14px;
+    color: #BDBDBD;
+    display: block;
+    margin: 50px auto;
+    padding: 5px 15px;
+    border-style: none;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+.general-section__form button {
+    width: 100%;
+    height: 54px;
+    border-style: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color:#FF9B51 ;
+    font-weight: 500;
+    font-size: 15px;
+    color: #ffffff;
+    display: block;
+    margin: 0 auto;
+}
+.general-section__form button:hover {
+    background: #3bb937;
+    transition: 0.2s;
+}
+.general-section__form button:active {
+    background: #339426; 
+}
+
+/* ________________________ MAIN ________________________ */
+
+/* ___________________ social section ___________________ */
+
+.social-section { 
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.social-section__content {
+    display: inline-block;
+    text-align: left;
+    padding: 23px 0;
+}
+
+.social-section__content h2 {
+    font-size: 20px;
+    color:#333333;
+}
+
+.social-section__content p {
+    width: 360px;
+    font-size: 14px;
+    color:#86878B;
+}
+
+.social-icon {
+    max-width: 740px;
+    display: inline-block;
+}
+
+.social-icon img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.social-icon img:hover {
+    border: 1px solid #FF9B51;   
+}
+
+.social-icon img:active {
+    border: 2px solid #FF9B51;   
+}
+
+.social-section li {
+    display: inline;
+    margin: auto 34px;
+}
+
+/* ____________________ tabs section ____________________ */
+
+.tabs-section {
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 0px;
+    background-color:#F5F5F5;
+}
+
+.tabs-section__content {
+    max-width: 1100px; 
+    text-align: center;
+    margin: 0 auto;
+    padding: 148px 0 114px 0;
+}
+
+.tabs-section__buttons {
+    display: inline-block;
+    text-align: left;
+}
+
+.btn__first {
+    width: 112px;
+    height: 112px;
+    background-color: #333333;
+    color: #ffffff;
+    display: block;
+    border-style: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px solid #ffffff;
+}
+
+.btn__second {
+    width: 112px;
+    height: 112px;
+    background-color: #333333;
+    color: #ffffff;
+    display: block;
+    border-style: none;
+    border: 1px solid #ffffff;
+    border-bottom: none;
+    border-top: none;
+}
+
+.btn__third {
+    width: 112px;
+    height: 112px;
+    background-color: #333333;
+    color: #ffffff;
+    display: block;
+    border-style: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid #ffffff;
+}
+.tabs-section__buttons .btn:hover {
+    background-color: #4d4d4d;
+    transition: 0.2s;
+}
+.tabs-section__buttons .btn:active {
+    background-color:#FF8B38;
+}
+
+.tabs-section__title {
+    display: inline-block;
+    text-align: left;
+    margin: 20px 94px;
+}
+
+.tabs-section__title h2 {
+    font-size: 20px;
+}
+
+.tabs-section__title p {
+    max-width: 480px;
+    margin: 50px 0;
+    font-size: 14px;
+    color:#86878B;
+}
+
+.tabs-section__title button {
+    width: 135px;
+    height: 42px;
+    background-color: #FF8B38;
+    border-style: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.tabs-section__title button:hover {
+    background: #ff8b38;
+    transition: 0.3s;
+}
+.tabs-section__title button:active {
+    background: #e06d1a;
+}
+
+.tabs-section__picture {
+    display: inline-block;
+}
+
+/* ___________________ virtues section __________________ */
+
+.virtues-section {
+    width: 100%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.vitrues-section__title {
+    padding-top: 107px;
+}
+
+.vitrues-section__title h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: #212121;
+}
+
+.vitrues-section__title hr {
+    width: 64px;
+    height: 2px;
+    border: none;
+    background: #FF8B38;
+    margin: 30px auto;
+}
+
+.vitrues-section__title h4 {
+    color: #86878B;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.virtues-section__content {
+    padding: 80px 0 107px;
+    font-size: 0;
+}
+
+.card {
+    display: inline-block;
+    width: 350px;
+    margin: 16px;
+}
+
+.icon {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    border: 2px solid #FF8B38;
+    border-radius: 50%;
+}
+
+.virtues-section__content h3 {
+    margin: 29px 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.virtues-section__content p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878B;
+}
+
+.icon--lamp {
+    background: url(../img/lamp.png) no-repeat center center;
+}
+
+.icon--keyboard {
+    background: url(../img/keyboard.png) no-repeat center center;
+}
+
+.icon--lightning {
+    background: url(../img/lightning.png) no-repeat center center;
+}
+
+/* ___________________ pricing section __________________ */
+
+.pricing-section {
+    width: 100%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    background-color:#F5F5F5;
+    font-size: 0px;
+    padding-bottom: 56px;
+}
+
+.pricing-section__title {
+    padding-top: 107px;
+}
+
+.pricing-section__title h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: #212121;
+}
+
+.pricing-section__title hr {
+    width: 64px;
+    height: 2px;
+    border: none;
+    background: #FF8B38;
+    margin: 30px auto;
+}
+
+.pricing-section__title h4 {
+    color: #86878B;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.pricing-section__options .option-card {
+    width: 343px;
+    background-color: #ffffff;
+    display: inline-block;
+    font-size: 14px;
+    margin: 20px;
+}
+
+.option-card h3 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #333333;
+    border-bottom: 1px solid #ffffff;
+    padding: 20px;
+}
+
+.option-card .price {
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #333333;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 0;
+    padding-top: 32px;
+}
+
+.option-card .number {
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.option-card .period {
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 600;
+    color: #8E8E8E;
+    background-color: #333333;
+    border-bottom: 5px solid #FF8B38;
+    padding: 20px;
+}
+
+.card__professional .period {
+    border: none;
+}
+
+.popular {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #FF8B38;
+    padding: 14px;
+}
+
+.option-card ul {
+    padding: 0;
+}
+
+.option-card li {
+    font-size: 14px;
+    padding: 14px;
+    list-style-type: none;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+/* ___________________ reviews section __________________ */
+
+.reviews-section {
+    width: 100%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0px;
+    padding-bottom: 50px;
+}
+
+.reviews-section__title {
+    padding-top: 107px;
+}
+
+.reviews-section__title h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: #212121;
+}
+
+.reviews-section__title hr {
+    width: 64px;
+    height: 2px;
+    border: none;
+    background: #FF8B38;
+    margin: 30px auto;
+}
+
+.reviews-section__title h4 {
+    color: #86878B;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.review-card {
+    display: inline-block;
+    width: 273px;
+    margin: auto 59px;
+    text-align: left;
+}
+
+.reviews-section__message {
+    background: url(../img/background-massage.png) no-repeat center center ;
+    background-size: contain;
+    text-align: left;
+    padding: 30px 20px 50px 20px;
+}
+
+.reviews-section__message p {
+    font-size: 14px;
+}
+
+.reviews-section__avatar {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.reviews-section__name {
+    display: inline-block;
+    position: relative;
+    bottom: 15px;
+}
+
+.reviews-section__name h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.reviews-section__name p {
+    font-size: 14px;
+    color:#86878B;
+}
+
+/* ___________________ custom section ___________________ */
+
+.custom-section {
+    width: 100%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(#00000080, #00000080), url(../img/background-city.png) repeat-y center center;
+    background-size: cover;
+    padding: 76px 0 47px 0;
+}
+
+.custom-section__title h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: white;
+}
+
+.custom-section__title hr {
+    width: 64px;
+    height: 2px;
+    border: none;
+    background: #ffffff;
+    margin: 30px auto;;
+}
+
+.custom-section__title h4 {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    padding-bottom: 33px;
+    opacity: 0.8;
+}
+
+.custom-section button {
+    width: 135px;
+    height: 42px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: #ffffff;
+    font-weight: bold;
+}
+.custom-section button:hover {
+    background: #ffffff4d;
+    border-width: 2px;
+    transition: 0.3s;
+}
+.custom-section button:active {
+    background: #ffffffcc;
+    border-color: #ffffff;
+    border-width: 2px;
+    transition: 0.2s;
+    color:#000000
+}
+
+/* ___________________ contact section __________________ */
+
+.contact-section {
+    width: 100%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0px;
+}
+
+.contact-section__title {
+    padding-top: 107px;
+}
+
+.contact-section__title h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: #212121;
+}
+
+.contact-section__title hr {
+    width: 64px;
+    height: 2px;
+    border: none;
+    background: #FF8B38;
+    margin: 30px auto;
+}
+
+.contact-section__title h4 {
+    color: #86878B;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.contact-section__container {
+    text-align: center;
+    font-size: 0;
+}
+
+.contact-section__form {
+    display: inline-block;
+    margin: auto 30px;
+}
+
+.contact-section__form-input {
+    width: 350px;
+    font-size: 14px;
+    color: #BDBDBD;
+    display: block;
+    padding: 5px 5px 5px 15px;
+    margin-top: 30px;
+    border-style: none;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+.contact-section__message {
+    display: inline-block;
+    margin: auto 30px;
+}
+
+.contact-section__textarea {
+    width: 350px;
+    height: 150px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    border-style: none;
+    border-bottom: 1px solid #BDBDBD;
+    padding: 15px;   
+    resize: none;
+    position: relative;
+    top: 9px;
+}
+
+.contact-section__container button {
+    display: block;
+    margin: 40px auto 80px auto;
+    width: 135px;
+    height: 42px;
+    background-color: #FF8B38;
+    border-style: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.contact-section__container button:hover {
+    background: #ff7512;
+    transition: 0.3s;
+}
+.contact-section__container button:active {
+    background: #e06d1a;
+}
+
+/* _______________________ FOOTER _______________________ */
+
+footer {
+    background: #000000;
+}
+
+footer ul {
+    width: 100%;
+    text-align: center;
+    padding: 38px 0 0 0;
+}
+
+footer li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer p {
+    padding: 15px 0;
+    text-align: center;
+    font-size: 12px;
+    color:#FFFFFF;
+    opacity: 0.5;
+}
